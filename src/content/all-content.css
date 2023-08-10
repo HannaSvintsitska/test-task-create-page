@@ -1,0 +1,38 @@
+.main-container-all-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /* margin: 0 122px; */
+}
+.h1-all-content {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.body-text-all-content {
+  color: #717171;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 426px) {
+  .h1-all-content {
+    font-size: 24px;
+  }
+  .body-text-all-content {
+    font-size: 14px;
+    margin: 10px 20px 0;
+  }
+}

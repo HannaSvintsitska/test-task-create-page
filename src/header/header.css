@@ -1,0 +1,113 @@
+.main-container-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: calc(100% - 200px);
+  background-color: white;
+  z-index: 2;
+}
+.textLogo {
+  color: #000;
+  font-family: Inter !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.buttons-nav-bar {
+  color: #1f1f1f !important;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize !important;
+  margin-right: 47px !important;
+}
+.icon-circle-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-person-header {
+  position: absolute;
+}
+.buttons-group-header {
+  display: flex;
+  margin-left: 13px;
+}
+.nav-bar-header {
+  display: flex;
+}
+.first-icon-button-header {
+  margin-right: 36px !important;
+}
+.logo-text-burger-menu {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.logo-and-button-burger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+
+.text-in-burger-menu {
+  color: #fff !important;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px !important;
+  text-transform: capitalize !important;
+  display: flex;
+  justify-content: flex-start !important;
+  padding: 0 !important;
+}
+.display-fle-col-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.first-icon-button-burger {
+  width: 31;
+  margin-right: 18px !important;
+}
+.second-icon-button-burger {
+  width: 31;
+  margin-left: 18px !important;
+}
+.container-icons-burger {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 426px) {
+  .main-container-header {
+    padding: 29px 20px;
+    width: calc(100% - 40px);
+  }
+  .nav-bar-header {
+    display: none;
+  }
+  .burger-main-container {
+    display: flex;
+  }
+}
+@media (min-width: 426px) {
+  .burger-main-container {
+    display: none;
+  }
+}

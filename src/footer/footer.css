@@ -1,0 +1,90 @@
+.container-footer {
+  background-color: #000000;
+  bottom: 0;
+  padding: 80px 80px 0;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.logo-footer {
+  color: #fff;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 45px;
+}
+.header-in-footer {
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Subtitle 1_18 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.margin-footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column !important;
+}
+.icon-and-text-footer {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+.text-info-footer {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px !important;
+}
+.container-join-news {
+  border-radius: 10px;
+  background: #131313;
+  padding: 14px;
+}
+.text-in-send-section {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.5;
+}
+.button-subscribe-footer {
+  margin: 29px 0 19px !important;
+  background: black !important;
+  border-radius: 0 4px 4px 0 !important;
+  color: white !important;
+  text-transform: capitalize !important;
+}
+
+@media (max-width: 426px) {
+  .container-footer {
+    padding: 20px 20px 35px;
+  }
+  .logo-footer {
+    margin-bottom: 20px;
+  }
+  .icon-and-text-footer {
+    flex-direction: column !important;
+  }
+  .info-contact-text-adaptive {
+    text-align: left !important;
+  }
+  .margin-footer {
+    margin-top: 20px !important;
+  }
+  .text-info-footer {
+    margin-bottom: 20px !important;
+  }
+}
