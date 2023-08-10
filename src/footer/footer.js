@@ -12,7 +12,7 @@ const Footer = () => {
         <Grid item xs={12} className="flex-center">
           <span className="logo-footer">Logo here</span>
         </Grid>
-        <Grid item xs={12}>
+        <Grid item xs={12} className="margin-bottom">
           <hr />
         </Grid>
         <Grid item xs={8} md={3} className="margin-footer">

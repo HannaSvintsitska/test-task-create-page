@@ -67,7 +67,9 @@
   color: white !important;
   text-transform: capitalize !important;
 }
-
+.margin-bottom {
+  margin-bottom: 30px !important;
+}
 @media (max-width: 426px) {
   .container-footer {
     padding: 20px 20px 35px;
