@@ -20,19 +20,19 @@ const Footer = () => {
             <span className="header-in-footer">Reach us</span>
             <Grid item xs={12} className="icon-and-text-footer">
               <img src={phone} alt="phone" />
-              <span className="info-contact-text-form info-contact-text-adaptive">
+              <span className="info-contact-text-footer info-contact-text-adaptive">
                 +1012 3456 789
               </span>
             </Grid>
             <Grid item xs={12} className="icon-and-text-footer">
               <img src={mail} alt="mail" />
-              <span className="info-contact-text-form info-contact-text-adaptive">
+              <span className="info-contact-text-footer info-contact-text-adaptive">
                 demo@gmail.com
               </span>
             </Grid>
             <Grid item xs={12} className="icon-and-text-footer">
               <img src={location} alt="location" />
-              <span className="info-contact-text-form info-contact-text-adaptive">
+              <span className="info-contact-text-footer info-contact-text-adaptive">
                 132 Dartmouth Street Boston, Massachusetts 02156 United States
               </span>
             </Grid>
