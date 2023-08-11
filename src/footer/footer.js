@@ -8,14 +8,14 @@ import mail from '../images/email.svg';
 const Footer = () => {
   return (
     <div className="container-footer">
-      <Grid container>
+      <Grid container justifyContent="space-between">
         <Grid item xs={12} className="flex-center">
           <span className="logo-footer">Logo here</span>
         </Grid>
         <Grid item xs={12} className="margin-bottom">
           <hr />
         </Grid>
-        <Grid item xs={8} md={3} className="margin-footer">
+        <Grid item xs={7} md={3} className="margin-footer">
           <Grid container>
             <span className="header-in-footer">Reach us</span>
             <Grid item xs={12} className="icon-and-text-footer">

@@ -44,7 +44,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 25px;
+  margin: 0 0 24px 25px;
   z-index: 1;
 }
 .container-space-between-form {
