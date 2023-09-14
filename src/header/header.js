@@ -6,11 +6,12 @@ import circle from '../images/Ellipse 35.svg';
 import person from '../images/Mask group.svg';
 import cart from '../images/bi_cart.svg';
 import Burger from './burger-menu';
+import AndroidIcon from '@mui/icons-material/Android';
 
 const Header = () => {
   return (
     <div className="main-container-header">
-      <span className="textLogo">Logo here</span>
+      <AndroidIcon />
       <Burger />
       <div className="nav-bar-header">
         <Button className="buttons-nav-bar">Home</Button>

@@ -1,7 +1,7 @@
 .container-footer {
   background-color: #000000;
   bottom: 0;
-  padding: 80px 80px 0;
+  padding: 20px 80px 0;
 }
 .flex-center {
   display: flex;
@@ -20,7 +20,7 @@
   color: #fff;
   font-feature-settings: 'clig' off, 'liga' off;
   /* Subtitle 1_18 */
-  font-family: Poppins;
+  font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -39,7 +39,7 @@
 }
 .text-info-footer {
   color: #fff;
-  font-family: Poppins;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -53,7 +53,7 @@
 }
 .text-in-send-section {
   color: #fff;
-  font-family: Manrope;
+  font-family: Inter;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -69,7 +69,7 @@
 }
 .info-contact-text-footer {
   color: #fff;
-  font-family: Poppins;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

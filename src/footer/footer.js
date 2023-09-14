@@ -4,13 +4,14 @@ import { Button, Grid, TextField } from '@mui/material';
 import phone from '../images/phone.svg';
 import location from '../images/location.svg';
 import mail from '../images/email.svg';
+import AndroidIcon from '@mui/icons-material/Android';
 
 const Footer = () => {
   return (
     <div className="container-footer">
       <Grid container justifyContent="space-between">
         <Grid item xs={12} className="flex-center">
-          <span className="logo-footer">Logo here</span>
+          <AndroidIcon sx={{ color: 'white' }} />
         </Grid>
         <Grid item xs={12} className="margin-bottom">
           <hr />
@@ -21,7 +22,7 @@ const Footer = () => {
             <Grid item xs={12} className="icon-and-text-footer">
               <img src={phone} alt="phone" />
               <span className="info-contact-text-footer info-contact-text-adaptive">
-                +1012 3456 789
+                +6758 4834 643
               </span>
             </Grid>
             <Grid item xs={12} className="icon-and-text-footer">
@@ -33,7 +34,7 @@ const Footer = () => {
             <Grid item xs={12} className="icon-and-text-footer">
               <img src={location} alt="location" />
               <span className="info-contact-text-footer info-contact-text-adaptive">
-                132 Dartmouth Street Boston, Massachusetts 02156 United States
+                168 Dartmouth Street Boston
               </span>
             </Grid>
           </Grid>
@@ -92,7 +93,7 @@ const Footer = () => {
             </Grid>
             <Grid item xs={12}>
               <span className="text-in-send-section">
-                * Will send you weekly updates for your better tool management.
+                *Will send you weekly updates for your better tool management.
               </span>
             </Grid>
           </Grid>
